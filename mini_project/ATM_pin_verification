@@ -1,0 +1,6 @@
+correct_pin=12345
+pin=int(input("enter your pin: "))
+if pin==correct_pin:
+    print("login successful")
+else:
+    print("wrong pin")

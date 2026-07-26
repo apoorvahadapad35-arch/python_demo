@@ -1,0 +1,11 @@
+name=input("enter your name: ")
+marks=int(input("enteryour marks: "))
+print("student:",name)
+if marks>=90:
+    print("grade A")
+if marks>=75:
+    print("grade B")
+if marks >=50:
+    print("grade c")
+else:
+    print("fail")
